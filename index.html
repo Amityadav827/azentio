@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>azentio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reponsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- nav start -->
+    <nav>
+        <div class="container">
+            <div class="navbar">
+                <div class="main-nav">
+
+                    <div class="hamburger" id="open">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+
+                    <div class="logo">
+                        <a href="#"><img src="images/logo.png" alt=""></a>
+                    </div>
+                    <div class="menu-main-nav">
+
+                        <div class="hamburgercross" id="close">
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                        </div>
+
+                        <div class="menu-nav">
+                            <ul>
+                                <li><a href="#">About Azentio</a></li>
+                                <li><a href="#">Products</a></li>
+                                <li><a href="#">Partnerships</a></li>
+                                <li>Support
+                                    <div class="dropdown">
+                                        <ul>
+                                            <li><a href="#">Option 1</a></li>
+                                            <li><a href="#">Option 2</a></li>
+                                            <li><a href="#">Option 3</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Insights</a></li>
+                            </ul>
+                        </div>
+                        <div class="contct-us">
+                            <a href="#">Contact Us</a>
+                        </div>
+                    </div>
+                    <div class="search">
+                        <img src="images/search.png" alt="Search Icon" onclick="toggleSearch(event)">
+                        <div class="search-box" id="searchBox" onclick="event.stopPropagation();">
+                            <input type="text" placeholder="Search here..." id="searchInput">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- nav end -->
+
+    <!-- section start -->
+    <section class="bank-main-sec">
+        <div class="container">
+            <div class="bank-sec">
+                <div data-aos="fade-right" data-aos-duration="1000" class="bank-sec-main">
+                    <div class="bank-sec-span">
+                        <p>Banking</p>
+                    </div>
+                    <div class="bank-sec-h">
+                        <h1>iMAL Islamic Banking</h1>
+                    </div>
+                    <div class="bank-sec-para">
+                        <p>We provide iMAL, the first AAOIFI-certified software suite since 2008, covering the entire
+                            spectrum of Islamic finance, investments, deposits, treasury, and capital markets.</p>
+                    </div>
+                    <div class="bank-sec-btn">
+                        <a href="">Request a demo</a>
+                    </div>
+                </div>
+                <div data-aos="fade-left" data-aos-duration="1000" class="bank-img">
+                    <img src="images/Pattern.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section end -->
+
+    <!-- section start -->
+    <section class="leader-main-sec">
+        <div class="container">
+            <div data-aos="fade-zoom-in" data-aos-duration="1000" class="leader-para">
+                <p>Trusted by industry-leaders</p>
+            </div>
+            <div class="leader-sec">
+                <div class="leader-main-img">
+                    <div class="leader-img-div">
+                        <a href="">
+                            <img src="images/ab.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="leader-main-img">
+                    <div class="leader-img-div">
+                        <a href="">
+                            <img src="images/bb.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="leader-main-img">
+                    <div class="leader-img-div">
+                        <a href="">
+                            <img src="images/ab.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="leader-main-img">
+                    <div class="leader-img-div">
+                        <a href="">
+                            <img src="images/bb.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="leader-main-img">
+                    <div class="leader-img-div">
+                        <a href="">
+                            <img src="images/ab.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="leader-main-img">
+                    <div class="leader-img-div">
+                        <a href="">
+                            <img src="images/bb.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="leader-main-img">
+                    <div class="leader-img-div">
+                        <a href="">
+                            <img src="images/ab.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="leader-main-img">
+                    <div class="leader-img-div">
+                        <a href="">
+                            <img src="images/bb.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section end -->
+
+    <!-- section start -->
+    <section class="imal-main-sec">
+        <div class="container">
+            <div data-aos="fade-zoom-in" data-aos-duration="1000" class="imal-sec-main">
+                <div class="imal-para">
+                    <p>IMAL Islamic Banking</p>
+                </div>
+                <div class="imal-para-txt">
+                    <p>Lines of business We cater to.</p>
+                </div>
+            </div>
+            <div class="banking-main">
+                <div class="banking-main-inner">
+                    <div class="banking-icon">
+                        <a href="">
+                            <img src="images/bankIcon.png" alt="">
+                        </a>
+                    </div>
+                    <div class="banking-text">
+                        <a href="#">
+                            <h3>iMAL Islamic Core Banking</h3>
+                        </a>
+                        <p>A real-time core banking solution supporting Islamic retail, corporate, and investment
+                            offerings, while adhering to the strict Sharia and AAOIFI requirements​</p>
+                    </div>
+                </div>
+
+                <div class="banking-main-inner">
+                    <div class="banking-icon">
+                        <a href="#">
+                            <img src="images/adjustIcon.png" alt="">
+                        </a>
+                    </div>
+                    <div class="banking-text">
+                        <a href="#">
+                            <h3>iMAL Islamic Profit Calculation​</h3>
+                        </a>
+                        <p>A cutting-edge solution that automates your Islamic profit distribution process, while
+                            ensuring Sharia compliance and increasing productivity​​</p>
+                    </div>
+                </div>
+
+
+                <div class="banking-main-inner">
+                    <div class="banking-icon">
+                        <a href="#">
+                            <img src="images/lorryIcon.png" alt="">
+                        </a>
+                    </div>
+                    <div class="banking-text">
+                        <a href="#">
+                            <h3>iMAL Islamic Financing​</h3>
+                        </a>
+                        <p>An integrated suite that streamlines the end-to-end financing workflow, covering operations
+                            from initial request to actual execution, settlement, collection and closure​</p>
+                    </div>
+                </div>
+
+                <div class="banking-main-inner">
+                    <div class="banking-icon">
+                        <a href="#">
+                            <img src="images/goldIcon.png" alt="">
+                        </a>
+                    </div>
+                    <div class="banking-text">
+                        <a href="#">
+                            <h3>iMAL Islamic Microfinance</h3>
+                        </a>
+                        <p>An advanced technology solution for developing and offering financial products to finance
+                            projects, trainings and education, and for community banking​</p>
+                    </div>
+                </div>
+
+
+                <div class="banking-main-inner">
+                    <div class="banking-icon">
+                        <a href="#">
+                            <img src="images/goldIcon.png" alt="">
+                        </a>
+                    </div>
+                    <div class="banking-text">
+                        <a href="#">
+                            <h3>iMAL Islamic Treasury</h3>
+                        </a>
+                        <p>A platform that streamlines complete workflows of money market and forex transactions,
+                            covering Murabaha, Mudaraba, Wakala and Wa’ad, among others​</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- section end -->
+
+    <!-- section start -->
+    <section class="key-feture-main-sec">
+        <div class="container">
+            <div data-aos="fade-zoom-in" data-aos-duration="1000" class="key-feture-sec-main">
+                <div class="key-feture-para">
+                    <p>Key Features</p>
+                </div>
+                <div class="key-feture-para-txt">
+                    <p>Shorter Time-To-Market <br> To Launch Innovative Islamic Products.</p>
+                </div>
+            </div>
+
+            <div class="frame-main">
+                <div class="frame-main-inner">
+                    <div class="frame-icon">
+                        <img src="images/frameOne.png" alt="">
+                    </div>
+                    <div class="frame-txt">
+                        <h3>Enviable Global Credentials​</h3>
+                        <ul>
+                            <li>First AAOIFI-certified banking software suite</li>
+                            <li>Serving 140+ Islamic financial institutions in 40+ countries</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="frame-main-inner">
+                    <div class="frame-icon">
+                        <img src="images/frameTwo.png" alt="">
+                    </div>
+                    <div class="frame-txt">
+                        <h3>Built-In Flexibility and Parameterization​</h3>
+                        <ul>
+                            <li>Seamlessly integrates with any existing core banking system​</li>
+                            <li>Caters for new innovative financing and investment products with least set-up time​</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="frame-main-inner">
+                    <div class="frame-icon">
+                        <img src="images/frameThree.png" alt="">
+                    </div>
+                    <div class="frame-txt">
+                        <h3>Covering Varied Processes​</h3>
+                        <ul>
+                            <li>Supports the design of dynamic business models for increased operational flexibility
+                            </li>
+                            <li>Covers all aspects of Islamic banking, including the use of various delivery channels
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section end -->
+
+    <!-- section start -->
+    <section class="benfts-main-sec">
+        <div class="container">
+            <div data-aos="fade-zoom-in" data-aos-duration="1000" class="benfts-sec-main">
+                <div class="benfts-para">
+                    <p>Benefits</p>
+                </div>
+                <div class="benfts-para-txt">
+                    <p>Enables Islamic Financial Institutions To <br> Capitalize On Latest Technologies And Remain
+                        Competitive​.</p>
+                </div>
+            </div>
+
+            <div class="islamic-main">
+                <div class="islamic-main-inner">
+                    <div class="islamic-icon">
+                        <img src="images/iconBank.png" alt="">
+                    </div>
+                    <div class="islamic-text">
+                        <h3>iMAL Islamic Core Banking</h3>
+                        <p>A real-time core banking solution supporting Islamic retail, corporate, and investment
+                            offerings, while adhering to the strict Sharia and AAOIFI requirements​</p>
+                    </div>
+                </div>
+                <div class="islamic-main-inner">
+                    <div class="islamic-icon">
+                        <img src="images/iconAdjust.png" alt="">
+                    </div>
+                    <div class="islamic-text">
+                        <h3>iMAL Islamic Profit Calculation​</h3>
+                        <p>A cutting-edge solution that automates your Islamic profit distribution process, while
+                            ensuring Sharia compliance and increasing productivity​​</p>
+                    </div>
+                </div>
+                <div class="islamic-main-inner">
+                    <div class="islamic-icon">
+                        <img src="images/iconLorry.png" alt="">
+                    </div>
+                    <div class="islamic-text">
+                        <h3>iMAL Islamic Financing​</h3>
+                        <p>An integrated suite that streamlines the end-to-end financing workflow, covering operations
+                            from initial request to actual execution, settlement, collection and closure​</p>
+                    </div>
+                </div>
+                <div class="islamic-main-inner">
+                    <div class="islamic-icon">
+                        <img src="images/iconGold.png" alt="">
+                    </div>
+                    <div class="islamic-text">
+                        <h3>iMAL Islamic Microfinance</h3>
+                        <p>An advanced technology solution for developing and offering financial products to finance
+                            projects, trainings and education, and for community banking​</p>
+                    </div>
+                </div>
+                <div class="islamic-main-inner">
+                    <div class="islamic-icon">
+                        <img src="images/iconGold.png" alt="">
+                    </div>
+                    <div class="islamic-text">
+                        <h3>iMAL Islamic Treasury</h3>
+                        <p>A platform that streamlines complete workflows of money market and forex transactions,
+                            covering Murabaha, Mudaraba, Wakala and Wa’ad, among others​</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section end -->
+
+    <!-- section start -->
+    <section class="faq-main-sec">
+        <div class="container">
+            <div class="faq-main">
+                <div class="faq-sec-inner">
+                    <div data-aos="fade-zoom-in" data-aos-duration="1000" class="faq-upper-txt">
+                        <p>Frequently Asked Questions.</p>
+                    </div>
+                    <div class="faq-main-btn">
+                        <a href="#">View More</a>
+                    </div>
+                </div>
+
+                <div class="faq-main-div">
+                    <div class="fad-item">
+                        <div class="faq-question">
+                            <h4>Are all the modules under ONEBanking suite integrated? Does it allow for third-party
+                                integration?</h4>
+                        </div>
+                        <div class="faq-answer">
+                            <p>All the modules under the suite are internally integrated. But having said that, these
+                                modules are standalone modules and hence can also be seamlessly integrated with
+                                third-party systems.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-main-div">
+                    <div class="fad-item">
+                        <div class="faq-question">
+                            <h4>Are all the modules under ONEBanking suite integrated? Does it allow for third-party
+                                integration?</h4>
+                        </div>
+                        <div class="faq-answer">
+                            <p>All the modules under the suite are internally integrated. But having said that, these
+                                modules are standalone modules and hence can also be seamlessly integrated with
+                                third-party systems.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-main-div">
+                    <div class="fad-item">
+                        <div class="faq-question">
+                            <h4>Are all the modules under ONEBanking suite integrated? Does it allow for third-party
+                                integration?</h4>
+                        </div>
+                        <div class="faq-answer">
+                            <p>All the modules under the suite are internally integrated. But having said that, these
+                                modules are standalone modules and hence can also be seamlessly integrated with
+                                third-party systems.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- section end -->
+
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="js/script.js"></script>
+
+    <script>
+        const openButton = document.getElementById("open");
+        const closeButton = document.getElementById("close");
+        const menu = document.querySelector(".menu-main-nav");
+
+        openButton.addEventListener("click", function () {
+            menu.classList.toggle("active");
+        });
+
+        closeButton.addEventListener("click", function () {
+            menu.classList.remove("active");
+        });
+
+        $(function () {
+            if ($(window).width() <= 767) {
+                $('.menu-nav li:has(div.dropdown)').on('click', function (e) {
+                    if (e.target === this) $(this).find('div.dropdown').slideToggle();
+                });
+
+                $('div.dropdown').on('click', e => e.stopPropagation());
+
+                $(document).on('click', function (e) {
+                    if (!$(e.target).closest('.menu-nav li:has(div.dropdown)').length)
+                        $('div.dropdown').slideUp();
+                });
+            }
+        });
+    </script>
+
+    <script>
+        function toggleSearch(event) {
+            var searchBox = document.getElementById("searchBox");
+            event.stopPropagation();
+            if (searchBox.style.display === "block") {
+                searchBox.style.display = "none";
+            } else {
+                searchBox.style.display = "block";
+                document.getElementById("searchInput").focus();
+            }
+        }
+
+        document.addEventListener("click", function () {
+            document.getElementById("searchBox").style.display = "none";
+        });
+    </script>
+
+</body>
+
+</html>
